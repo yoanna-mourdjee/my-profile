@@ -1,0 +1,129 @@
+/*colors and fonts*/
+
+body{
+	background-color: rgb(255, 245, 238);
+	color: rgb(30, 30, 30);
+	font-family: Courier;
+	font-size: 16px;
+}
+
+h1, h2{
+	color: rgb(107, 127, 191);
+	font-family: 'Roboto Slab', serif;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 200;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	transition: color 0.30s ease;
+}
+
+a:hover {
+color: black;
+}
+  
+
+/*Custom design*/
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+
+}
+
+.card-white{
+	 background-color: white;
+	 padding: 30px;
+	 margin: 20px 0px;
+	 border-radius: 6px;
+	 box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.text-center{
+	text-align: center;
+}
+
+.img-circle{	
+	border-radius: 50%;
+}
+
+#img-reduce{
+	width: 20%;
+}
+
+.btn-purple{
+	background-color: rgb(107, 127, 191);
+	padding: 15px 10px;
+	border-radius: 5px;
+}
+
+.btn-purple:hover{
+	background-color: rgb(230,230,230);
+	color: rgb(107, 127, 191);
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 40px;
+	color: rgb(107, 127, 191);	
+}
+
+.list-inline i:hover{
+	color: rgb(230,230,230);	
+}
+
+#introduction p{
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
